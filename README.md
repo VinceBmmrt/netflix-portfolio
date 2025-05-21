@@ -1,6 +1,6 @@
 # Clone Netflix - Projet Portfolio
 
-Un clone de Netflix créé avec Next.js, Tailwind CSS et l'API TMDB pour démontrer mes compétences en développement frontend.
+Un clone de Netflix créé avec Next.js, Tailwind CSS et l'API TMDB pour mon portfolio.
 
 ## Configuration
 
@@ -11,13 +11,13 @@ Un clone de Netflix créé avec Next.js, Tailwind CSS et l'API TMDB pour démont
 
 ### Installation
 
-1. Clonez ce dépôt
+1. Cloner ce dépôt
 \`\`\`bash
 git clone https://github.com/votre-username/netflix-clone.git
 cd netflix-clone
 \`\`\`
 
-2. Installez les dépendances
+2. Installer les dépendances
 \`\`\`bash
 npm install
 # ou
@@ -26,15 +26,15 @@ yarn
 pnpm install
 \`\`\`
 
-3. Configurez les variables d'environnement
-   - Copiez le fichier `.env.example` en `.env.local`
-   - Ajoutez votre clé API TMDB dans le fichier `.env.local`
+3. Configurer les variables d'environnement
+   - Copier le fichier `.env.example` en `.env.local`
+   - Ajouter votre clé API TMDB dans le fichier `.env.local`
 
 \`\`\`bash
 cp .env.example .env.local
 \`\`\`
 
-4. Lancez le serveur de développement
+4. Lancer le serveur de développement
 \`\`\`bash
 npm run dev
 # ou
@@ -43,7 +43,7 @@ yarn dev
 pnpm dev
 \`\`\`
 
-5. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur
+5. Ouvrir [http://localhost:3000](http://localhost:3000) dans votre navigateur
 
 ## Fonctionnalités
 
@@ -57,7 +57,7 @@ pnpm dev
 
 ## Sécurité
 
-⚠️ **Important** : Ne jamais commiter votre fichier `.env.local` contenant votre clé API TMDB. Ce fichier est déjà ajouté au `.gitignore`.
+⚠️ **Important** : Ne jamais commiter le fichier `.env.local` contenant votre clé API TMDB. Ce fichier est déjà ajouté au `.gitignore`.
 
 ## Technologies utilisées
 
